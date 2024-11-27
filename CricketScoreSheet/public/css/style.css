@@ -1,0 +1,57 @@
+body{
+    background-color: rgb(149, 149, 152);
+}
+.btn{
+    padding: 10px;
+    margin: 10px;
+    
+}
+.text{
+    text-align: right;
+}
+.button{
+    padding: 10px;
+    
+}
+.button:hover{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    transition: 1s;
+    border: 1 solid red;
+}
+.red{
+    color: red;
+}
+.th1{
+    margin-right: 10px;
+    padding-right: 10px;
+}
+.th2{
+    margin-right: 10px;
+    padding-right: 8px;
+}
+.th3{
+    margin-right: 10px;
+    padding-right: 4px;
+}
+.th4{
+    margin-right: 10px;
+    padding-right: 34px;
+}
+.th5{
+    margin-right: 10px;
+    padding-right: 36px;
+}
+.abc{
+    color:green;
+}
+.button1{
+    padding: 10px;
+    
+}
+.button1:hover{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    transition: 1s;
+    border: 1 solid red;
+}
