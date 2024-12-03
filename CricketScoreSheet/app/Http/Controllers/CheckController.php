@@ -27,16 +27,25 @@ class CheckController extends Controller
      * Store a newly created resource in storage.
      */
     public function store(Request $request)
-    {
-        $emandpw->phpem = LoginModel::get('email'.value);
-        $emandpw->phppw = LoginModel::get('password');
+{
+    // Validate the input
+    $request->validate([
+        'email' => 'required|email',
+        'password' => 'required',
+    ]);
 
-        $reqemandpw->reqem = $request->email;
-        $reqemandpw->reqpw = $request->password;
-        if($reqemandpw->reqem == $emandpw->phpem || $reqemandpw->reqpw == $emandpw->phppw){
-            return view('Score.acout');
-        }
+    // Fetch the user by email
+    $user = LoginModel::where('email', $request->email)->first();
+
+    if ($user && $user->password === $request->password) {
+        // Successful login: Redirect to the home or account page
+        return view('Score.home'); // Replace 'acout' with the actual Blade file name for your home/account page
+    } else {
+        // Failed login: Return back with an error message
+        return back()->withErrors(['email' => 'Invalid email or password.'])->withInput();
     }
+}
+
 
     /**
      * Display the specified resource.

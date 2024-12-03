@@ -7,6 +7,9 @@ use App\Http\Controllers\WebController;
 use App\Http\Controllers\SheetController;
 use App\Http\Controllers\LoginController;
 use App\Http\Controllers\CheckController;
+use App\Http\Controllers\UserRegisterController;
+use App\Http\Controllers\AuthController;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -29,3 +32,6 @@ Route::resource('register',Group_A_Controller::class);
 Route::resource('b_register',Group_B_Controller::class);
 Route::resource('login',LoginController::class);
 Route::resource('check',CheckController::class);
+Route::get('/user-register', [UserRegisterController::class, 'create'])->name('user_register.create');
+Route::post('/user-register', [UserRegisterController::class, 'store'])->name('user_register.store');
+

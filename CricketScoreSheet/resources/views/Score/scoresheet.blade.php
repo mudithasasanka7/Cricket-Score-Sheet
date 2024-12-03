@@ -28,7 +28,7 @@
                 </td>
             </tr>
         </table>
-        <table>
+        <table style="width: 100%; border-collapse: collapse; font-family: Arial, sans-serif; margin: 0;">
             <tr>
                 <th>
                     Batman
@@ -566,33 +566,33 @@
         <table class="tab">
             <tr>
                 <td>
-                    <input type="text" value="0" disabled id="opruns">
+                    <input type="text" value="0" size="3" disabled id="opruns">
                 </td>
                 <td>
-                    <input type="text" value="0" disabled id="opwicket">
+                    <input type="text" value="0" size="3" disabled id="opwicket">
                 </td>
                 <td>
-                    <input type="text" value="0.0" id="opovers" disabled >
+                    <input type="text" value="0.0" size="3" id="opovers" disabled >
                 </td>
                 <td>
-                    <input type="text" value="" placeholder="Batman Name..." id="demo1" disabled>
+                    <input type="text" value=""  placeholder="Batman Name..." id="demo1" disabled>
                 </td>
                 <td>
-                    <input type="text" value="0" disabled>
+                    <input type="text" value="0" size="3" disabled>
                 </td>
                 <td>
                     <input type="text" value="" placeholder="Batman Name..."  disabled>
                 </td>
                 <td>
-                    <input type="text" value="0" disabled>
+                    <input type="text" value="0"size="3" disabled>
                 </td>
             </tr>
+        </table>
+
+        <table style="width: 100%; border-collapse: collapse; font-family: Arial, sans-serif; margin: 0;">
             <tr>
                 <th>
                     Batman
-                </th>
-                <th>
-
                 </th>
                 <th>
                     R
@@ -610,259 +610,240 @@
                     SR
                 </th>
             </tr>
+
             <tr>
-                <td>
+                <td >
                     <input type="text" disabled placeholder="Player Name..." value="" id="">
                 </td>
-                <td>
 
+                <td >
+                    <input type="text" disabled value="0"size="3">
                 </td>
-                <td>
-                    <input type="text" disabled value="0">
+                <td >
+                    <input type="text" disabled value="0"size="3">
                 </td>
-                <td>
-                    <input type="text" disabled value="0">
+                <td >
+                    <input type="text" disabled value="0"size="3">
                 </td>
-                <td>
-                    <input type="text" disabled value="0">
+                <td >
+                    <input type="text" disabled value="0"size="3">
                 </td>
-                <td>
-                    <input type="text" disabled value="0">
-                </td>
-                <td>
-                    <input type="text" disabled value="0">
+                <td >
+                    <input type="text" disabled value="0"size="3">
                 </td>
             </tr>
             <tr>
                 <td>
                     <input type="text" disabled placeholder="Player Name...">
                 </td>
-                <td>
 
+                <td>
+                    <input type="text" disabled value="0" size="3">
                 </td>
                 <td>
-                    <input type="text" disabled value="0">
+                    <input type="text" disabled value="0" size="3">
                 </td>
                 <td>
-                    <input type="text" disabled value="0">
+                    <input type="text" disabled value="0" size="3">
                 </td>
                 <td>
-                    <input type="text" disabled value="0">
+                    <input type="text" disabled value="0" size="3">
                 </td>
                 <td>
-                    <input type="text" disabled value="0">
-                </td>
-                <td>
-                    <input type="text" disabled value="0">
+                    <input type="text" disabled value="0" size="3">
                 </td>
             </tr>
             <tr>
                 <td>
                     <input type="text" disabled placeholder="Player Name...">
                 </td>
-                <td>
 
+                <td>
+                    <input type="text" disabled value="0" size="3">
                 </td>
                 <td>
-                    <input type="text" disabled value="0">
+                    <input type="text" disabled value="0" size="3">
                 </td>
                 <td>
-                    <input type="text" disabled value="0">
+                    <input type="text" disabled value="0" size="3">
                 </td>
                 <td>
-                    <input type="text" disabled value="0">
+                    <input type="text" disabled value="0" size="3">
                 </td>
                 <td>
-                    <input type="text" disabled value="0">
-                </td>
-                <td>
-                    <input type="text" disabled value="0">
+                    <input type="text" disabled value="0" size="3">
                 </td>
             </tr>
             <tr>
                 <td>
                     <input type="text" disabled placeholder="Player Name...">
                 </td>
-                <td>
 
+                <td>
+                    <input type="text" disabled value="0" size="3" size="3" size="3" size="3">
                 </td>
                 <td>
-                    <input type="text" disabled value="0">
+                    <input type="text" disabled value="0" size="3" size="3" size="3" size="3">
                 </td>
                 <td>
-                    <input type="text" disabled value="0">
+                    <input type="text" disabled value="0" size="3" size="3" size="3" size="3">
                 </td>
                 <td>
-                    <input type="text" disabled value="0">
+                    <input type="text" disabled value="0" size="3" size="3" size="3" size="3">
                 </td>
                 <td>
-                    <input type="text" disabled value="0">
-                </td>
-                <td>
-                    <input type="text" disabled value="0">
+                    <input type="text" disabled value="0" size="3" size="3" size="3" size="3">
                 </td>
             </tr>
             <tr>
                 <td>
                     <input type="text" disabled placeholder="Player Name...">
                 </td>
-                <td>
 
+                <td>
+                    <input type="text" disabled value="0" size="3" size="3" size="3">
                 </td>
                 <td>
-                    <input type="text" disabled value="0">
+                    <input type="text" disabled value="0" size="3" size="3" size="3">
                 </td>
                 <td>
-                    <input type="text" disabled value="0">
+                    <input type="text" disabled value="0" size="3" size="3" size="3">
                 </td>
                 <td>
-                    <input type="text" disabled value="0">
+                    <input type="text" disabled value="0" size="3" size="3" size="3">
                 </td>
                 <td>
-                    <input type="text" disabled value="0">
-                </td>
-                <td>
-                    <input type="text" disabled value="0">
+                    <input type="text" disabled value="0" size="3" size="3" size="3">
                 </td>
             </tr>
             <tr>
                 <td>
                     <input type="text" disabled placeholder="Player Name...">
                 </td>
-                <td>
 
+                <td>
+                    <input type="text" disabled value="0" size="3" size="3">
                 </td>
                 <td>
-                    <input type="text" disabled value="0">
+                    <input type="text" disabled value="0" size="3" size="3">
                 </td>
                 <td>
-                    <input type="text" disabled value="0">
+                    <input type="text" disabled value="0" size="3" size="3">
                 </td>
                 <td>
-                    <input type="text" disabled value="0">
+                    <input type="text" disabled value="0" size="3" size="3">
                 </td>
                 <td>
-                    <input type="text" disabled value="0">
-                </td>
-                <td>
-                    <input type="text" disabled value="0">
+                    <input type="text" disabled value="0" size="3" size="3">
                 </td>
             </tr>
             <tr>
                 <td>
                     <input type="text" disabled placeholder="Player Name...">
                 </td>
-                <td>
 
+                <td>
+                    <input type="text" disabled value="0" size="3">
                 </td>
                 <td>
-                    <input type="text" disabled value="0">
+                    <input type="text" disabled value="0" size="3">
                 </td>
                 <td>
-                    <input type="text" disabled value="0">
+                    <input type="text" disabled value="0" size="3">
                 </td>
                 <td>
-                    <input type="text" disabled value="0">
+                    <input type="text" disabled value="0" size="3">
                 </td>
                 <td>
-                    <input type="text" disabled value="0">
-                </td>
-                <td>
-                    <input type="text" disabled value="0">
+                    <input type="text" disabled value="0" size="3">
                 </td>
             </tr>
             <tr>
                 <td>
                     <input type="text" disabled placeholder="Player Name...">
                 </td>
-                <td>
 
+                <td>
+                    <input type="text" disabled value="0" size="3">
                 </td>
                 <td>
-                    <input type="text" disabled value="0">
+                    <input type="text" disabled value="0" size="3">
                 </td>
                 <td>
-                    <input type="text" disabled value="0">
+                    <input type="text" disabled value="0" size="3">
                 </td>
                 <td>
-                    <input type="text" disabled value="0">
+                    <input type="text" disabled value="0" size="3">
                 </td>
                 <td>
-                    <input type="text" disabled value="0">
-                </td>
-                <td>
-                    <input type="text" disabled value="0">
+                    <input type="text" disabled value="0" size="3">
                 </td>
             </tr>
             <tr>
                 <td>
                     <input type="text" disabled placeholder="Player Name...">
                 </td>
-                <td>
 
+                <td>
+                    <input type="text" disabled value="0" size="3" size="3" size="3">
                 </td>
                 <td>
-                    <input type="text" disabled value="0">
+                    <input type="text" disabled value="0" size="3" size="3" size="3">
                 </td>
                 <td>
-                    <input type="text" disabled value="0">
+                    <input type="text" disabled value="0" size="3" size="3" size="3">
                 </td>
                 <td>
-                    <input type="text" disabled value="0">
+                    <input type="text" disabled value="0" size="3" size="3" size="3">
                 </td>
                 <td>
-                    <input type="text" disabled value="0">
-                </td>
-                <td>
-                    <input type="text" disabled value="0">
+                    <input type="text" disabled value="0" size="3" size="3" size="3">
                 </td>
             </tr>
             <tr>
                 <td>
                     <input type="text" disabled placeholder="Player Name...">
                 </td>
-                <td>
 
+                <td>
+                    <input type="text" disabled value="0" size="3" size="3">
                 </td>
                 <td>
-                    <input type="text" disabled value="0">
+                    <input type="text" disabled value="0" size="3" size="3">
                 </td>
                 <td>
-                    <input type="text" disabled value="0">
+                    <input type="text" disabled value="0" size="3" size="3">
                 </td>
                 <td>
-                    <input type="text" disabled value="0">
+                    <input type="text" disabled value="0" size="3" size="3">
                 </td>
                 <td>
-                    <input type="text" disabled value="0">
-                </td>
-                <td>
-                    <input type="text" disabled value="0">
+                    <input type="text" disabled value="0" size="3" size="3">
                 </td>
             </tr>
             <tr>
                 <td>
                     <input type="text" disabled placeholder="Player Name...">
                 </td>
-                <td>
 
+                <td>
+                    <input type="text" disabled value="0" size="3">
                 </td>
                 <td>
-                    <input type="text" disabled value="0">
+                    <input type="text" disabled value="0" size="3">
                 </td>
                 <td>
-                    <input type="text" disabled value="0">
+                    <input type="text" disabled value="0" size="3">
                 </td>
                 <td>
-                    <input type="text" disabled value="0">
+                    <input type="text" disabled value="0" size="3">
                 </td>
                 <td>
-                    <input type="text" disabled value="0">
-                </td>
-                <td>
-                    <input type="text" disabled value="0">
+                    <input type="text" disabled value="0" size="3">
                 </td>
             </tr>
+        </table>
+        <table>
             <tr>
                 <td class="text">
                     Run Rate :
