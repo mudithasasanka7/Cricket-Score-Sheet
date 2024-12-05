@@ -59,7 +59,7 @@
         </div>
 
         <div class="container mt-2">
-            <label for="">Card Name / Pet Name</label>
+            <label for="">Card Name / Another Name</label>
             <div class="container">
                 <input type="text" class="form-group form-control form-control-sm" name="card" placeholder="Enter the Card Name..!">
             </div> 

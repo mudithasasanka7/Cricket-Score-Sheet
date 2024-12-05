@@ -7,7 +7,6 @@
 <div style="margin-top: 40px; margin-bottom: 82px; max-width: 600px; margin-left: auto; margin-right: auto;">
     <form action="{{ route('check.store') }}" method="post" style="padding: 20px; border: 1px solid #ccc; border-radius: 10px; box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1); background-color: #f9f9f9;">
         @csrf
-
         <div style="margin-bottom: 15px; display: flex; align-items: center;">
             <label for="email" style="width: 40%; text-align: right; margin-right: 10px;">E-mail</label>
             <div style="width: 60%;">

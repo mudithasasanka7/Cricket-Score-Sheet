@@ -6,12 +6,8 @@
 
 <div class="container text-justify">
     <p>
-    Web development is the work involved in developing a website for the Internet (World Wide Web) or 
-    an intranet (a private network).Web development can range from developing a simple single 
-    static page of plain text to complex web applications, electronic businesses, and social network 
-    services. A more comprehensive list of tasks to which Web development commonly refers, may include 
-    Web engineering, Web design, Web content development, client liaison, client-side/server-side 
-    scripting, Web server and network security configuration, and e-commerce development.
+    About Me
+Welcome to my Cricket Score Sheet website! My name is [Your Name], and I am passionate about combining technology and sports to create innovative solutions. As an aspiring web developer, I built this platform to simplify cricket match management and bring convenience to players, teams, and fans.
     </p>
 
     <p>
